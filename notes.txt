@@ -1,0 +1,5 @@
+exponential
+log
+log10
+degrees of freedom
+uncertainty, confidence intervals

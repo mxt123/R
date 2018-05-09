@@ -1,0 +1,10 @@
+string <-  "R for data analysis"
+cat("Substring:\t",substr(string,7,10),"\n")
+cat("Substring:\t",substr(string,1,4),"\n")
+cat("Substring:\t",substr(string,4,4),"\n")
+cat("Replaced:\t",sub("sis","tics",string),"\n\n")
+print(paste("split: ",strsplit(string," ")))
+toupper("avdsv")
+tolower("aADS")
+now <- Sys.time()
+print(format(now, "Date: %Y, %A, %B, %e"))
