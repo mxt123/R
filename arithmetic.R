@@ -73,7 +73,6 @@ print(fruit)
 print(sort(fruit))
 
 nums <- c(NA,8:2,NA,1:7,NA)
-#plot(nums)
 cat("Numbers",nums,"\n")
 nums <- sort(nums, na.last=TRUE)
 cat("Increasing:",nums,"\n")

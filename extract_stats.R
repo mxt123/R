@@ -1,0 +1,11 @@
+nums <- rnorm(20, mean=5, sd =2)
+cat("Mean:\t",mean(nums),"\n")
+cat("Median:\t",median(nums),"\n")
+sd(nums)
+quantile(nums)
+sum(nums)
+range(nums)
+min(nums)
+max(nums)
+
+plot(1:20,nums,type="o")
